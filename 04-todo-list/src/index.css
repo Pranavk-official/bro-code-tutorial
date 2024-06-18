@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(0, 0%, 45%);
+}
+
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 4rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-btn {
+  background-color: hsl(124, 47%, 54%);
+}
+.add-btn:hover {
+  background-color: hsl(124, 47%, 74%);
+}
+
+.delete-btn {
+  background-color: hsl(14, 100%, 45%);
+}
+.delete-btn:hover {
+  background-color: hsl(14, 100%, 85%);
+}
+
+.move-btn {
+  background-color: hsl(196, 95%, 40%);
+}
+.move-btn:hover {
+  background-color: hsl(196, 95%, 70%);
+}
+
+input[type="text"] {
+  font-size: 1.4rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  border: 2px solid hsl(0, 0%, 80%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-btn,
+.move-btn {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
